@@ -30,5 +30,7 @@
     * yt_dlp
 
 若沒有，請使用pip安裝：
+
 ```pip install csv librosa json multiprocessing numpy pydub yt_dlp```
+
 2. 執行 prediction 中的 predict.py 檔案
