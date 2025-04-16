@@ -1,7 +1,8 @@
 # 音頻預處理 - 提取量化特徵
 使用librosa函式庫分析音樂的以下特徵：
 
-![ ](picture/features_extract.png=200x)
+<center><img src="picture/features_extract.png" alt="" width="50%"/></center>
+
 - - -
 
  ### 色度短時傅立葉變換 (chroma STFT)
