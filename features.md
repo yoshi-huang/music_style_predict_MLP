@@ -1,37 +1,37 @@
 # 音頻預處理 - 提取量化特徵
 使用librosa函式庫分析音樂的以下特徵：
 
-![ ](picture/features_extract.png#pic_center=200x200)
+![ ](picture/features_extract.png=200x)
 - - -
 
-> ### 色度短時傅立葉變換 (chroma STFT)
+ ### 色度短時傅立葉變換 (chroma STFT)
 > 反映音訊中每個半音（12個音高）能量的分布
 
-> ### 均方根（Root Mean Square）
+ ### 均方根（Root Mean Square）
 > 表示聲音能量的平均強度，與音量相關
 
-> ### 譜質心（Spectral Centroid）
+ ### 譜質心（Spectral Centroid）
 > 頻率和時間的加權平均，描述聲音整體氣氛「明亮」或「暗沉」的程度
 
-> ### 譜帶寬（Spectral Bandwidth）
+ ### 譜帶寬（Spectral Bandwidth）
 > 描述音域分布範圍，聲音的「寬廣」程度
 
-> ### 譜滾降點（Spectral Roll-off）
+ ### 譜滾降點（Spectral Roll-off）
 > 頻譜能量累積達總能量85%所對應的頻率，用於衡量高頻能量分布
 
-> ### 過零率（Zero Crossing Rate）
+ ### 過零率（Zero Crossing Rate）
 > 聲音從正轉負或負轉正的次數，反映訊號粗糙的程度
 
-> ### 和諧度（Harmonicity）
+ ### 和諧度（Harmonicity）
 > 衡量訊號中諧波(頻率比簡單)成分的能量比例，高代表有音高、穩定的樂音
 
-> ### 感知度（Perceptual Features）
+ ### 感知度（Perceptual Features）
 > 模擬人耳聽覺感知的特徵，如調性感知、模進和聲感
 
-> ### 節拍 (tempo)
+ ### 節拍 (tempo)
 > 計算短時間內能量或頻譜的突變，也就是音樂的節奏速度
 
-> #### 梅爾頻率倒譜系數（Mel-Frequency Cepstral Coefficients）
+ ### 梅爾頻率倒譜系數（Mel-Frequency Cepstral Coefficients）
 > 從梅爾尺度模擬人耳對頻率的響應，捕捉音色的核心特徵
 - - -
 
