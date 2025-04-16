@@ -2,7 +2,9 @@
 一個使用pytorch預測音樂風格的MLP
 
 ## 大致架構
-1. 使用librosa函式庫分析音樂特徵：[具體提出特徵](/workspaces/music_style_predict_MLP/features.md)
+1. 使用librosa函式庫分析音樂特徵：
+   
+   [特徵具體有哪些?](features.md)
 2. 將提取出的特徵取平均及方差
 3. 將提平均及方差輸入模型做訓練
 
